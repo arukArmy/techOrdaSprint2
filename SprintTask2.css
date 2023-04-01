@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-color: #e9eaee;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    background-color: #4f76a1;
+    padding:10px;
+    padding-left: 200px;
+}
+.navBar h2{
+    color: white;
+}
+form {
+    background-color: #324766;
+    width: 200px;
+    height: 33px;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+input {
+    all: unset;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+svg {
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
+
+#form{
+    margin-left: 150px;
+}
+.mainContent{
+    display: flex;
+    margin-top: 15px;
+
+}
+.leftBar{
+    margin-left: 200px;
+    margin-right: 40px;
+
+}
+.leftBar ul {
+    list-style-type: none;
+}
+.leftBar ul a{
+    text-decoration: none;
+    color: #4c596c;
+}
+.centerBar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.topCenter{
+    padding: 10px;
+}
+.topCenter button{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+.friends{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.friendsIcons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+.friendsIcons td{
+    padding:0 10px 0 0;
+}
+.friendsIcons img{
+    height: 70px;
+}
+.friendsIcons img{
+    border-radius: 100px;
+    width: 70px;
+}
+.rightBar{
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+.rightBarName{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.rightBarName-Name{
+    display: flex;
+    flex-direction: column;
+
+}
+.rightBarName-Name-1{
+    display: flex;
+    justify-content: space-between;
+}
+.rightBarName-Info{
+    border-top: black solid 0.1px;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+.rightBarName-Info td{
+    padding:0 20px 0 0;
+}
+.rightBarName-Friends{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: black solid 0.1px;
+    margin-bottom: 10px;
+}
+
+.rightBarName-Friends-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rightBarName-Friends-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rightBarName-Friends-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rightBarName-Friends-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rightBarName-Friends-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rightBarName-Friends-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.rightBarPhotos{
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.rightBarPhotos-Photos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.rightBarPhotos-Photos-2{
+    margin-left: 5px;
+}
+.rightBarContent{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.rightBarContent-Photo{
+    display: flex;
+    align-items: center;
+}
+.rightBarContent-Photo img{
+    border-radius: 50px;
+    height: 60px;
+}
+.rightBarContent-Photo-2{
+    margin-left: 10px;
+}
+
+
